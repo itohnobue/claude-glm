@@ -49,11 +49,9 @@ The installer configures model mappings based on your GLM Coding Plan:
 
 | Claude Alias | Max Plan | Pro Plan | Lite Plan |
 |-------------|----------|----------|-----------|
-| **opus** | glm-5 | glm-4.7 | glm-4.7 |
-| **sonnet** | glm-4.7 | glm-4.6 | glm-4.6 |
-| **haiku** | glm-4.6 | glm-4.5 | glm-4.5-air |
-
-See [docs/MODELS.md](docs/MODELS.md) for full model details and pricing.
+| **opus** | glm-5 | glm-5 | glm-4.7 |
+| **sonnet** | glm-4.7 | glm-4.7 | glm-4.6 |
+| **haiku** | glm-4.6 | glm-4.6 | glm-4.5-air |
 
 ## Configuration
 
