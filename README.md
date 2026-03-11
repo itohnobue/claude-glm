@@ -50,8 +50,8 @@ The installer configures model mappings based on your GLM Coding Plan:
 | Claude Alias | Max Plan | Pro Plan | Lite Plan |
 |-------------|----------|----------|-----------|
 | **opus** | glm-5 | glm-5 | glm-4.7 |
-| **sonnet** | glm-4.7 | glm-4.7 | glm-4.6 |
-| **haiku** | glm-4.6 | glm-4.6 | glm-4.5-air |
+| **sonnet** | glm-4.7 | glm-4.7 | glm-4.7 |
+| **haiku** | glm-4.7 | glm-4.7 | glm-4.7 |
 
 ## Configuration
 

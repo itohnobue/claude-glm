@@ -115,9 +115,9 @@ main() {
   printf '\n'
   printf '  Which GLM Coding Plan do you have?\n'
   printf '\n'
-  printf '  %s[1] Max%s  — opus=glm-5,   sonnet=glm-4.7, haiku=glm-4.6\n' "$BOLD" "$RESET"
-  printf '  %s[2] Pro%s  — opus=glm-5,   sonnet=glm-4.7, haiku=glm-4.6\n' "$BOLD" "$RESET"
-  printf '  %s[3] Lite%s — opus=glm-4.7,  sonnet=glm-4.6, haiku=glm-4.5-air\n' "$BOLD" "$RESET"
+  printf '  %s[1] Max%s  — opus=glm-5,   sonnet=glm-4.7, haiku=glm-4.7\n' "$BOLD" "$RESET"
+  printf '  %s[2] Pro%s  — opus=glm-5,   sonnet=glm-4.7, haiku=glm-4.7\n' "$BOLD" "$RESET"
+  printf '  %s[3] Lite%s — opus=glm-4.7,  sonnet=glm-4.7, haiku=glm-4.7\n' "$BOLD" "$RESET"
   printf '\n'
 
   local plan_choice plan_name
