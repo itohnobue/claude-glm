@@ -28,8 +28,8 @@ $WRAPPER_NAME = "claude-glm.cmd"
 
 # Model mappings per plan
 $PlanModels = @{
-    "max"  = @{ Opus = "glm-5";   Sonnet = "glm-4.7"; Haiku = "glm-4.7" }
-    "pro"  = @{ Opus = "glm-5";   Sonnet = "glm-4.7"; Haiku = "glm-4.7" }
+    "max"  = @{ Opus = "glm-5.1"; Sonnet = "glm-4.7"; Haiku = "glm-4.7" }
+    "pro"  = @{ Opus = "glm-5.1"; Sonnet = "glm-4.7"; Haiku = "glm-4.7" }
     "lite" = @{ Opus = "glm-4.7"; Sonnet = "glm-4.7"; Haiku = "glm-4.7" }
 }
 
@@ -264,9 +264,9 @@ function Main {
     Write-Host "  Which GLM Coding Plan do you have?"
     Write-Host ""
     Write-Host "  [1] Max  " -NoNewline -ForegroundColor White
-    Write-Host "- opus=glm-5,   sonnet=glm-4.7, haiku=glm-4.7"
+    Write-Host "- opus=glm-5.1, sonnet=glm-4.7, haiku=glm-4.7"
     Write-Host "  [2] Pro  " -NoNewline -ForegroundColor White
-    Write-Host "- opus=glm-5,   sonnet=glm-4.7, haiku=glm-4.7"
+    Write-Host "- opus=glm-5.1, sonnet=glm-4.7, haiku=glm-4.7"
     Write-Host "  [3] Lite " -NoNewline -ForegroundColor White
     Write-Host "- opus=glm-4.7,  sonnet=glm-4.7, haiku=glm-4.7"
     Write-Host ""

@@ -14,8 +14,8 @@ readonly WRAPPER_NAME="claude-glm"
 
 # Model mappings per plan
 # Format: OPUS SONNET HAIKU
-readonly PLAN_MAX_MODELS="glm-5 glm-4.7 glm-4.7"
-readonly PLAN_PRO_MODELS="glm-5 glm-4.7 glm-4.7"
+readonly PLAN_MAX_MODELS="glm-5.1 glm-4.7 glm-4.7"
+readonly PLAN_PRO_MODELS="glm-5.1 glm-4.7 glm-4.7"
 readonly PLAN_LITE_MODELS="glm-4.7 glm-4.7 glm-4.7"
 
 # ── Colors ──
